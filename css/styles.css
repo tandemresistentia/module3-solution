@@ -1,0 +1,59 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.search-box {
+    text-align: center;
+    margin: 20px 0;
+}
+
+input {
+    padding: 8px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.menu-item {
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item button {
+    background-color: #f44336;
+}
+
+.menu-item button:hover {
+    background-color: #da190b;
+}
+
+.error-message {
+    text-align: center;
+    color: #f44336;
+    font-style: italic;
+    margin: 20px 0;
+}
